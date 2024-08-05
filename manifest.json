@@ -1,0 +1,15 @@
+{
+    "name": "Reddit Redirector",
+    "version": "0.1.0",
+    "description": "Redirect to new Reddit UI",
+    "permissions": ["tabs","browsingData"],
+    "host_permissions": ["*://*.reddit.com/*"],
+    "content_scripts": [
+        {
+            "matches": ["*://*.reddit.com/*"],
+            "js": ["redirect.js"],
+            "run_at": "document_start"
+        }
+    ],
+    "manifest_version": 3
+}
