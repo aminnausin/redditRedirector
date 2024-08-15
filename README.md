@@ -1,8 +1,15 @@
 # redditRedirector
-Automatically redirect to new.reddit UI
+Automatically redirect to the second generation reddit UI instead of the new third generation UI.
+
+|![image](https://github.com/user-attachments/assets/da8ea741-6565-426e-9d00-87162f07d071)| → |![image](https://github.com/user-attachments/assets/67e33a9d-c06d-42b0-b03c-74df9df3e8f3)|
+|----------------	|----	|--------------	|
+| Redirects from 	| → | Redirects to 	|
+
+## Usage
+You MUST be logged in before enabling. There is no explore page on new.reddit.com so it infinitely redirects to reddit's default home page.
 
 ## Installation
-Download and extract contents into a folder. The following process varies for different browsers.
+Download as a zip and extract contents into a folder. The following process varies for different browsers.
 - Microsoft Edge:
   On the manage extentions page, enable developer mode.<br>
   ![image](https://github.com/user-attachments/assets/5d82ec23-7b36-4fc2-b6f9-0082307b9a65)<br>
